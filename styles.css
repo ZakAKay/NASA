@@ -1,0 +1,49 @@
+body {
+    margin: 0 auto;
+    width: 850px
+}
+
+main {
+    display: flex;
+align-items: center;
+justify-content: center;
+height: 450px;
+background-image: url(./nasaphoto.jpg);
+background-size: cover;
+background-position: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    height: 324px;
+    background-color: gray;
+    padding-left: 60px;
+    font-family: 'roboto', sans-serif;
+
+}
+div {
+    width: 270px;
+
+}
+h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    color: rgb(255, 208, 0);
+    flex: center;
+
+
+}
+h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 20px;
+    flex: center;
+    font-display: bold;
+}
+
+.button {background-color:black ; 
+color: white;
+
+}
