@@ -16,12 +16,13 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 section {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     height: 324px;
     background-color: gray;
     padding-left: 60px;
     font-family: 'roboto', sans-serif;
-
+    
 }
 div {
     width: 270px;
